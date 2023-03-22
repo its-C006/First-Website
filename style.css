@@ -1,0 +1,143 @@
+body{
+    color: black;
+    margin: 0%;
+}
+.topbar{
+height: 625px;
+}
+.topbar-leftsite{
+    width: 50%;
+    height: 570px;
+    float: left;
+    padding: 50px 0px 0px 100px;
+    
+
+}
+h1{
+ font-size: 60px; 
+ }
+.im{
+    padding-left: 140px;
+}
+.shofol{
+    color: burlywood;
+}
+
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+    padding-left: 80px;
+}
+.peragrap{
+ width: 50%;
+ font-size: 20px;
+ padding-left: 100px;
+}
+.btn1 button{
+    color: blue;
+    font-size: 40px;
+    border-radius: 20px;
+    text-decoration: solid;
+    text-transform: uppercase;
+    margin-left: 140px;
+    background-color: wheat;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+
+.btn1 button:hover{
+    color: green;
+    background-color: white;
+}
+.topbar-rightsite{
+    float: left;
+}
+
+.big-dream{
+    padding-left: 77px;
+    margin-top: 100px;
+}
+p{
+    color: dimgray;
+}
+.peragrap2{
+    width: 500px;
+    margin-left: 80px;
+    font-size: 20px;
+}
+.btn2{
+    color: blue;
+    font-size: 25px;
+    border-radius: 20px;
+    text-decoration: solid;
+    text-transform: uppercase;
+    margin-left: 77px;
+    background-color: wheat;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.btn2:hover{
+    color: green;
+    background-color: white;   
+}
+
+.Experience{
+margin: 5%;
+height: 1000px;
+}
+.exp h1{
+    font-size: 40px;
+}
+.frist-box{
+width: 35%;
+height: 245px;
+padding: 5px;
+margin: 2%;
+box-shadow: 10px 10px 40px grey;
+float: left;
+margin-left: 140px;
+border-style: solid;
+  border-width: 10px;
+  border-top:hidden ;
+  border-bottom: hidden;
+  border-right: hidden;
+  border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
+}
+.frist-box h2{
+    font-size: 35px;
+}
+.frist-box h3{
+    font-size: 20px;
+}
+
+.sec-box{
+    width: 35%;
+    height: 245px;
+    padding: 5px;
+    margin: 2%;
+    box-shadow: 10px 10px 40px grey;
+    float: left;
+    border-style: solid;
+  border-width: 10px;
+  border-top:hidden ;
+  border-bottom: hidden;
+  border-left: hidden;
+  border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
+    }
+    .sec-box h2{
+        font-size: 35px;
+    }
+    .sec-box h3{
+        font-size: 20px;
+    }
+    
+ 
+    footer p{
+        text-align: center;
+    }

@@ -1,143 +1,281 @@
-body{
-    color: black;
-    margin: 0%;
-}
-.topbar{
-height: 625px;
-}
-.topbar-leftsite{
-    width: 50%;
-    height: 570px;
-    float: left;
-    padding: 50px 0px 0px 100px;
-    
-
-}
-h1{
- font-size: 60px; 
- }
-.im{
-    padding-left: 140px;
-}
-.shofol{
-    color: burlywood;
+*{
+    margin: 0px;
 }
 
-h2{
-    font-size: 40px;
+/* header section and menu item style css */
+.header{
+    width: 100%;
+    height: 50px;
 }
-h3{
+.menu{
+    height: 40px;
+    width: 600px;
+    float: right;
+}
+.menu-item{
     font-size: 30px;
-    padding-left: 80px;
+    height: 40px;
+    margin-top: 20px;
 }
-.peragrap{
- width: 50%;
- font-size: 20px;
- padding-left: 100px;
+.menu-item a{
+    text-decoration: none;
+    padding-left: 30px;
+    transition: 1.5s;
 }
-.btn1 button{
-    color: blue;
-    font-size: 40px;
-    border-radius: 20px;
-    text-decoration: solid;
-    text-transform: uppercase;
-    margin-left: 140px;
-    background-color: wheat;
-    border: none;
-    cursor: pointer;
+.menu-item a:hover{
+    color: greenyellow;
+}
+
+/* frist headline and frist page style css*/
+.contantner{
+    width: 100%;
+}
+.contantner .laft-site{
+    width: 600px;
+    height: 450px;
+    display: flex;
+    float: left;
+    padding: 70px 0px 0px 70px;
+}
+.contantner .laft-site .headline h1{
+    font-size: 50px;
+}
+.my-name{
+color: blueviolet;
+text-align: center;
+}
+.headline p{
+    color: dimgray;
+    width: 500px;
+    font-size: 18px;
+}
+.hire-me{
+    margin: 50px 0px 0px 0px ;
+}
+.hire-me-button{
+    font-size: 30px;
+    text-decoration: none;
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 10px 50px;
+    color: white;
+    margin: 0px 0px 0px 0px ;
+
+}
+.contantner .right-site{
+    width: 550px;
+    height: 519px;
+    float: right;
+    margin: 0px 120px 0px 0px ;
+}
+.right-site img{
+    width: 450px;
+    height: 500px;
+}
+/* 2nd page , about me more style css */
+
+.second-page-laft{
+    width: 650px;
+}
+.second-page-laft img{
+    width: 450px;
+    height: 500px;
+    padding-left: 70px;
+    float: left;
+}
+
+.second-page-right{
+    width: 600px;
+    height: 500px;
+    float: right;
+}
+.about-page{
     padding: 10px;
+    padding-top: 60px;
+}
+.about-page h1{
+    font-size: 40px;
+
+}
+.about-page p{
+    width: 400px;
+    padding-top: 10px;
+    word-spacing: 2px;
 }
 
+/* latest working project style css */
 
+.latest-project{
+    width: 1300px;
+    height: 100px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+}
 
-.btn1 button:hover{
-    color: green;
+.latest-project-headline h1{
+    padding-left:400px;
+    font-size: 40px;
+}
+.latest{
+    color: aqua;
+}
+
+/* 1st 2nd 3rd project style css */
+
+.all-project{
+    height: 500px;
+    padding: 20px;
+}
+.frist-project{
+    width: 400px;
+    height: 410px;
+    float: left;
+    margin: 15px ;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px dimgray;
+    transition: 2s;
+}
+.second-project{
+    width: 400px ;
+    height: 410px;
+    float: left;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px dimgray;
+    transition: 2s;
+}
+.thard-project{
+    width: 400px;
+    height: 410px;
+    float: right;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px dimgray;
+    transition: 2s;
+}
+/* all working project image style css */
+.frist-project img{
+    width: 350px;
+    height: 200px;
+    padding: 30px;
+}
+.second-project img{
+    width: 350px;
+    height: 200px;
+    padding: 30px;
+}
+.thard-project img{
+    width: 350px;
+    height: 200px;
+    padding: 30px;
+
+}
+
+/* all working project h1 style css */
+
+.frist-project h1{
+padding: 20px;
+}
+.second-project h1{
+padding: 20px;
+}
+.thard-project h1{
+padding: 20px;
+}
+/* all working project p tag style css */
+
+.frist-project p{
+ padding: 0px 0px 0px 25px;
+}
+.second-project p{
+ padding: 0px 0px 0px 25px;
+}
+.thard-project p{
+ padding: 0px 0px 0px 25px;
+}
+
+/* all project hover to zoom */
+.frist-project:hover{
+    transform: scale(1.1);
+}
+.second-project:hover{
+    transform: scale(1.1);
+}
+.thard-project:hover{
+    transform: scale(1.1);
+}
+/* worl inquiry style xss */
+
+.work-inquiry{
+    height: 300px;
+}
+.work-inquiry-box{
+    width: 600px;
+    height: 150px;
+    background-image: url(img/icons/work\ inquiry\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px 0px 0px 360px;
+    float: left;
+}
+.work-inquiry-box h1{
+    font-size: 50px;
+    padding: 44px 0px 0px 22px;
+    color: white;
+    width: 300px;
+}
+.lets-chat-btn:hover{
     background-color: white;
 }
-.topbar-rightsite{
-    float: left;
+.lets-chat-btn a:hover{
+    color: orangered;
+}
+.lets-chat-btn{
+    width: 200px;
+    float: right;
+    height: 50px;
+    font-size: 30px;
+    background-color: orangered;
+    margin: -50px 30px 0px 0px;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 1s;
+}
+.lets-chat-btn a{
+    text-decoration: none;
+    color: white;
+    padding: 35px 0px 0px 40px;
+    transition: 2s;
+}
+/* fotter page style */
+.fotter-page{
+    height: 300px;
+}
+.fotter-page-item{
+    height: 200px;
+    width: 600px;
+    margin: 20px 0px 0px 360px;
 }
 
-.big-dream{
-    padding-left: 77px;
-    margin-top: 100px;
+/* fotter page item style css */
+
+.fotter-headline{
+    text-align: center;
+
 }
-p{
-    color: dimgray;
-}
-.peragrap2{
-    width: 500px;
-    margin-left: 80px;
-    font-size: 20px;
-}
-.btn2{
-    color: blue;
-    font-size: 25px;
-    border-radius: 20px;
-    text-decoration: solid;
-    text-transform: uppercase;
-    margin-left: 77px;
-    background-color: wheat;
-    border: none;
-    cursor: pointer;
+.fotter-email{
+    text-align: center;
+    font-size: 35px;
     padding: 10px;
 }
-.btn2:hover{
-    color: green;
-    background-color: white;   
+.fotter-social{
+    align-items:center;
+    margin-left: 145px;
 }
-
-.Experience{
-margin: 5%;
-height: 1000px;
+.fotter-social img{
+    width: 80px;
+    text-align: center;
+    padding: 10px;
 }
-.exp h1{
-    font-size: 40px;
-}
-.frist-box{
-width: 35%;
-height: 245px;
-padding: 5px;
-margin: 2%;
-box-shadow: 10px 10px 40px grey;
-float: left;
-margin-left: 140px;
-border-style: solid;
-  border-width: 10px;
-  border-top:hidden ;
-  border-bottom: hidden;
-  border-right: hidden;
-  border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
-}
-.frist-box h2{
-    font-size: 35px;
-}
-.frist-box h3{
-    font-size: 20px;
-}
-
-.sec-box{
-    width: 35%;
-    height: 245px;
-    padding: 5px;
-    margin: 2%;
-    box-shadow: 10px 10px 40px grey;
-    float: left;
-    border-style: solid;
-  border-width: 10px;
-  border-top:hidden ;
-  border-bottom: hidden;
-  border-left: hidden;
-  border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
-    }
-    .sec-box h2{
-        font-size: 35px;
-    }
-    .sec-box h3{
-        font-size: 20px;
-    }
-    
- 
-    footer p{
-        text-align: center;
-    }
